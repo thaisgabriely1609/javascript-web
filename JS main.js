@@ -5,13 +5,12 @@ function tocaSomPom () {
 
 const ListaDeTeclas = document.querySelectorAll('.tecla');
 
-ListaDeTeclas(0).onclick = tocaSomPom;
+let contador = 0;
 
-listaDeTeclas{1}. onclick = tocaSomClap;
-listaDeTeclas{2}. onclick = tocaSomTim;
-listaDeTeclas{3}. onclick = tocaSomPuff;
-listaDeTeclas{4}. onclick = tocaSomSplash;
-listaDeTeclas{5}. onclick = tocaSomToim;
-listaDeTeclas{6}. onclick = tocaSomSplash;
-listaDeTeclas{7}. onclick = tocaSomTic;
-listaDeTeclas{8}. onclick = tocaSomTom;
+//enquanto
+while (contador < 9) {
+  listaDeTeclas{0}. onclick = tocaSomPom;
+
+  contador = contador + 1;
+
+  console.log(contador);
